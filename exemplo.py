@@ -1,0 +1,11 @@
+﻿# Meu primeiro programa em Python:
+print('Bem vindo ao Curso de Python do Zero A Automacao')
+print('Por favor, qual o seu nome?')
+my_name = input()
+print('Prazer em conhece-lo(a), '+my_name)
+print('A quantidade de letras em seu nome e: ')
+numero_de_letras = len(my_name)
+print(numero_de_letras)
+print('Qual a sua idade?')
+age = input()
+print("Voce tem "+ age +' anos.')
