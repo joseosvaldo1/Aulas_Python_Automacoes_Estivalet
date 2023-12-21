@@ -1,0 +1,31 @@
+Introdução ao Web Scraping:
+
+- Web scraping: é um termo para se referir ao uso de um programa para fazer download e processar conteúdos da Web. Por exemplo, o Google executa diversos programas de web scraping para indexar páginas web em sua ferramenta de pesquisa.
+
+- O web scraping corresponde a coleta de dados de páginas da web e 
+armazená-los em um formato estruturado (jason, csv, etc.) ou em um banco de dados;
+
+- Ele é usado quando não temos API para acessar dados da internet;
+
+* Etapas:
+1. Identificar o website de destino;
+2. Recolher URLs das páginas de onde se pretende extrair os dados;
+3. Fazer um pedido a estes URLs para obter o HTML da página;
+4. Utilizar localizadores para encontrar os dados em HTML;
+5. Salvar os dados em arquivos JSON, CSV ou em outro formato estruturado.
+
+* O Web Scraping serve para:
+
+- Inteligência de preços - extração de preços de produtos em sites
+de e-commerce;
+- Monitorização de conteúdo - extração de notícias;
+- Mercado imobiliário, etc;
+
+
+- Módulos de Python para Web Scraping:
+1. Webbrowser: Vem junto com o Python e abre um navegador em uma página específica.
+2. Requests: Faz downloads de arquivos e de páginas web da Internet.
+Beautiful Soup Faz parse de HTML, que é o formato em que as páginas
+web são escritas.
+3. Selenium: Inicia e controla um navegador web. O Selenium é capaz de
+preencher formulários e simular cliques de mouse nesse navegador.
