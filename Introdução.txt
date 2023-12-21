@@ -1,0 +1,38 @@
+"""
+Arquivos PDF (Parte I):
+
+* Introdução:
+
+- PDF que dizer Portable Document Format, e esse tipo de arquivo 
+utiliza aextensão .pdf.
+-O módulo que usaremos para trabalhar com os PDFs é o PyPDF2. Para
+instalá-lo, execute pip install PyPDF2 na linha de comando. O nome 
+desse módulo diferencia letras maiúsculas de minúsculas, portanto 
+certifique-se de que o y seja minúsculo e tudo o mais esteja em letras 
+maiúsculas.
+- Embora os arquivos PDF sejam ótimos para organizar textos de modo
+que seja fácil para as pessoas imprimirem e lerem, não é fácil para os
+softwares fazer parse e obter o texto em formato texto simples. Sendo
+assim, o PyPDF2 pode cometer erros ao extrair textos de um PDF e
+pode até mesmo ser incapaz de abrir alguns PDFs. Não há muito que se
+possa fazer a esse respeito, infelizmente. O PyPDF2 poderá
+simplesmente ser incapaz de trabalhar com alguns de seus arquivos
+PDF em particular. Apesar do que afirmei, ainda não encontrei nenhum
+arquivo PDF que não pudesse ser aberto com o PyPDF2.
+
+Anotações do professor Estivalete:
+
+- PDF = Portable Document Format
+# extensão .pdf;
+# Criado pela Adobre, mantido pela ISO;
+# Troca de arquivo confiável;
+# Independente de software e hardware.
+
+- Biblioteca PyPDF2:
+# Extrair texto;
+# Rotacionar, combinar e dividir páginas PDF;
+# Adicionar marca d'água;
+# Proteger PDF com senha.
+
+
+"""
